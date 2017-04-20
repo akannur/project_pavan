@@ -50,6 +50,9 @@
     .p-select .dropdown {
     	margin-top: 9%;	
     }
+    .certificates ul li {
+    	padding: 22px 22px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -95,6 +98,9 @@
     }
     .product-list .p-img {
     	margin-left: 19%;
+    }
+    .certificates ul li {
+    	padding: 22px 30px;
     }
 }
 
@@ -145,6 +151,9 @@
     }
     .product-list .p-img {
     	margin-left: 19%;
+    }
+    .certificates ul li {
+    	padding: 22px 53px;
     }
 }
 

@@ -854,6 +854,7 @@ ul.contact-address {
 ul.contact-address li {
 	padding: 0 0 20px;
 	margin: 0;
+	font-weight: 500;
 }
 ul.contact-address li:last-child {
 	padding-bottom: 0;
@@ -1209,7 +1210,7 @@ p.subtitle {
     border-radius: 50% !important;
     border: 1px solid #fafafa;
 }
-.product-li:hover {
+.product-li:hover, .certificates ul li:hover {
 	box-shadow: 5px 5px 5px #ccc;
 }
 .product-list .row > .col-sm-3 {
@@ -1345,7 +1346,7 @@ p.subtitle {
 	margin-top: 1%;
 }
 .page.page-abt {
-	padding:50px 0 0 0; 
+	padding:25px 0 0 0; 
 }
 .product-list-btn {
     background: #337ab7;
@@ -1396,4 +1397,43 @@ p.subtitle {
     left: 0;
     top: 0;
     right: 0;
+}
+/*certificates style begins*/
+.page.certificates {
+	padding: 10px 0;
+}
+.certificates img {
+	border: 1px solid #f2f2f2;
+	width: 130px;
+	height: 130px;
+	cursor: pointer;
+}
+.certificates ul li {
+	display: inline-block;
+	padding: 0 22px;
+}
+.cert-m-top {
+	margin: 35px 0;
+}
+.cert-m-top i {
+	text-align: center;
+	margin: 10px 0;
+}
+/*certificates style ends*/
+.product-heading {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    /*border-bottom: 2px solid #ccc;*/
+    /*margin-right: 8%;*/
+    /*padding-bottom: 3px;*/
+    text-align: center;
+    margin: 16px 0;
+}
+.product-heading span {
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 3px;
+}
+.page.product-section {
+	background: url(../img/products-bg.jpg);
 }
